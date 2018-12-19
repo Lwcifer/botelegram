@@ -51,9 +51,8 @@
 			$text="La data odierna è: ".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
-		if($text=="data"){
-			$text="La data odierna è: ".date("h.i.s");
-			$parameters = array('chat_id' => $chatId, "text" => $text);
+		if($text=="foto"){
+			sendFoto($chatId,"foto.png",false,"La mia Foto", $api);
 		}
 		
 		//aggiungo il comando di invio
