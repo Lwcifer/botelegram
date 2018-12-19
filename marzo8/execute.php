@@ -54,7 +54,10 @@
 		if($text=="foto"){
 			sendFoto($chatId,"foto.png",false,"La mia Foto", $api);
 		}
-		
+			if($text=="orario"){
+			$text="Sono le: ".date("h.i.sa");
+			$parameters = array('chat_id' => $chatId, "text" => $text);
+			}
 		//aggiungo il comando di invio
 		//e lo invio
 		
