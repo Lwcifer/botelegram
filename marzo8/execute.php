@@ -50,7 +50,10 @@
 			$text="La data odierna è: ".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
-		
+		/*if($text=="orario"){
+			$text="Sono le: ".
+			$parameters = array('chat_id' => $chatId, "text" => $text);	
+		*/
 		//aggiungo il comando di invio
 		//e lo invio
 		
