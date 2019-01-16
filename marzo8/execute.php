@@ -67,7 +67,7 @@
 
 		if($text=="skioffi")
 		{
-			sendAudio($chatId,"un po un pino.mp3",false,"Skioffi-Pino",$api);
+			sendAudio($chatId,"audio.mp3",false,"Skioffi-Pino",$api);
 		}
 		
 		
