@@ -69,6 +69,11 @@
 		{
 			sendAudio($chatId,"pino.mp3",false,"Skioffi-Pino",$api);
 		}
+
+		if($text=="pdf")
+		{
+			sendDocument($chatId,"testo.pdf",false,"Il tuo doc","api);
+		}
 		
 		
 		
