@@ -72,9 +72,13 @@
 
 		if($text=="pdf")
 		{
-			sendDocument($chatId,"testo.pdf",false,"Il tuo doc","api);
+			sendDocument($chatId,"testo.pdf",false,"Il tuo doc",$api);
 		}
 		
+		if($text=="pdf2")
+		{
+			sendDocument($chatId,"testo.txt",false,"Il tuo doc",$api);
+		}
 		
 		
 		
