@@ -64,6 +64,11 @@
 		$parameters["method"] = "sendMessage";
         echo json_encode($parameters);
 		
+
+		if($text=="audio")
+		{
+			sendAudio($chatId,"audio.mp3",false,"Il mio audio",$api);
+		}
 		
 		
 		
