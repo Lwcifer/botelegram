@@ -65,9 +65,9 @@
         echo json_encode($parameters);
 		
 
-		if($text=="audio")
+		if($text=="skioffi")
 		{
-			sendAudio($chatId,"un po un pino.mp3",false,"Il mio audio",$api);
+			sendAudio($chatId,"un po un pino.mp3",false,"Skioffi-Pino",$api);
 		}
 		
 		
