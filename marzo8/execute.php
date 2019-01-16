@@ -67,7 +67,7 @@
 
 		if($text=="audio")
 		{
-			sendAudio($chatId,"audio.mp3",false,"Il mio audio",$api);
+			sendAudio($chatId,"un po un pino.mp3",false,"Il mio audio",$api);
 		}
 		
 		
